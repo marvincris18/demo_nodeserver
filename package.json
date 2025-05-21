@@ -1,14 +1,17 @@
 {
-  "name": "simple-node-server",
+  "name": "simple-express-server",
   "version": "1.0.0",
-  "description": "A simple Node.js server serving HTML pages",
+  "description": "A simple Express server serving HTML pages",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "marvin andrade",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
